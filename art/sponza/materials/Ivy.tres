@@ -1,8 +1,21 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://c7o1fckm5r47v"]
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://c7o1fckm5r47v"]
+
+[ext_resource type="Texture2D" uid="uid://c17gj4vdma6ym" path="res://art/sponza/textures/Ivy/Ivy_Diffuse.png" id="1_oladm"]
+[ext_resource type="Texture2D" uid="uid://d6k0gcmcy1sq" path="res://art/sponza/textures/Ivy/Ivy_Diffuse_AO.png" id="2_pj4ty"]
+[ext_resource type="Texture2D" uid="uid://wjq5p8p6fg21" path="res://art/sponza/textures/Ivy/Ivy_MetallicSmoothness.png" id="3_u1qq4"]
+[ext_resource type="Texture2D" uid="uid://cucr8bmplr1m4" path="res://art/sponza/textures/Ivy/Ivy_Diffuse_Normal.png" id="4_tbytj"]
+[ext_resource type="Texture2D" uid="uid://b4bpmjfymfsfe" path="res://art/sponza/textures/Ivy/Ivy_Smoothness.png" id="5_j0g5s"]
 
 [resource]
 resource_name = "Ivy"
 transparency = 4
 cull_mode = 2
+albedo_texture = ExtResource("1_oladm")
 metallic = 1.0
-roughness = 0.858579
+metallic_texture = ExtResource("3_u1qq4")
+roughness_texture = ExtResource("5_j0g5s")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("4_tbytj")
+ao_enabled = true
+ao_texture = ExtResource("2_pj4ty")

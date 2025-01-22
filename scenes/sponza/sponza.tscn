@@ -30,6 +30,7 @@ shadow_enabled = true
 environment = SubResource("Environment_6h7dr")
 
 [node name="LightmapGI" type="LightmapGI" parent="."]
+generate_probes_subdiv = 3
 light_data = ExtResource("1_6h7dr")
 
 [node name="sponza_modular" parent="." instance=ExtResource("1_jydd8")]

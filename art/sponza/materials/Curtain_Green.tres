@@ -1,7 +1,20 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://is6thyb6jbum"]
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://is6thyb6jbum"]
+
+[ext_resource type="Texture2D" uid="uid://bhbbqornhfl0y" path="res://art/sponza/textures/Fabrics/Fabric_Curtain_Diffuse_Green.png" id="1_s24ft"]
+[ext_resource type="Texture2D" uid="uid://c6lwwcxed4rk6" path="res://art/sponza/textures/Fabrics/Fabric_Curtain_AO.png" id="2_pgwbl"]
+[ext_resource type="Texture2D" uid="uid://d2w0dex27y40t" path="res://art/sponza/textures/Fabrics/Fabric_Curtain_Metallic.png" id="3_nq3s0"]
+[ext_resource type="Texture2D" uid="uid://mc45717lty37" path="res://art/sponza/textures/Fabrics/Fabric_Curtain_Normal.png" id="4_lw5se"]
+[ext_resource type="Texture2D" uid="uid://bcqj8u7bclww8" path="res://art/sponza/textures/Fabrics/Fabric_Curtain_Smoothness.png" id="5_gcsp7"]
 
 [resource]
 resource_name = "Curtain_Green"
 cull_mode = 2
+albedo_texture = ExtResource("1_s24ft")
 metallic = 1.0
-roughness = 0.858579
+metallic_texture = ExtResource("3_nq3s0")
+roughness_texture = ExtResource("5_gcsp7")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("4_lw5se")
+ao_enabled = true
+ao_texture = ExtResource("2_pgwbl")

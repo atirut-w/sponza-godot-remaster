@@ -1,7 +1,27 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://mg2i142d70ks"]
+[gd_resource type="StandardMaterial3D" load_steps=7 format=3 uid="uid://mg2i142d70ks"]
+
+[ext_resource type="Texture2D" uid="uid://djv2mv6a2l6vm" path="res://art/sponza/textures/Column_A/Column_A_Diffuse.png" id="1_6nb54"]
+[ext_resource type="Texture2D" uid="uid://dqgtr44cuctfd" path="res://art/sponza/textures/Column_A/Column_A_AO.png" id="2_528le"]
+[ext_resource type="Texture2D" uid="uid://cwgpbbhol4isw" path="res://art/sponza/textures/Column_A/Column_A_Height.png" id="3_flj5m"]
+[ext_resource type="Texture2D" uid="uid://c0amjf8r8w2cp" path="res://art/sponza/textures/Column_A/Column_A_MetallicSmoothness.png" id="4_ywmyt"]
+[ext_resource type="Texture2D" uid="uid://cuc1nxoya23mq" path="res://art/sponza/textures/Column_A/Column_A_Normal.png" id="5_ulih0"]
+[ext_resource type="Texture2D" uid="uid://bsa708piwpsst" path="res://art/sponza/textures/Column_A/Column_A_Smoothness.png" id="6_qaxrx"]
 
 [resource]
 resource_name = "Column_A"
 cull_mode = 2
+albedo_texture = ExtResource("1_6nb54")
 metallic = 1.0
-roughness = 0.858579
+metallic_texture = ExtResource("4_ywmyt")
+roughness_texture = ExtResource("6_qaxrx")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("5_ulih0")
+ao_enabled = true
+ao_texture = ExtResource("2_528le")
+heightmap_enabled = true
+heightmap_scale = 2.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("3_flj5m")

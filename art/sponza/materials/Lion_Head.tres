@@ -1,7 +1,27 @@
-[gd_resource type="StandardMaterial3D" format=3 uid="uid://c4rsqbwt5if67"]
+[gd_resource type="StandardMaterial3D" load_steps=7 format=3 uid="uid://c4rsqbwt5if67"]
+
+[ext_resource type="Texture2D" uid="uid://b4vw8lwot1bve" path="res://art/sponza/textures/Lion_Head/Lion_Head_Diffuse.png" id="1_jefek"]
+[ext_resource type="Texture2D" uid="uid://c6ksijlu07snc" path="res://art/sponza/textures/Lion_Head/Lion_Head_AO.png" id="2_yrxjs"]
+[ext_resource type="Texture2D" uid="uid://d0ue47v412ru5" path="res://art/sponza/textures/Lion_Head/Lion_Head_Height.png" id="3_n23jg"]
+[ext_resource type="Texture2D" uid="uid://bjvo3do65bdvu" path="res://art/sponza/textures/Lion_Head/Lion_Head_MetallicSmoothness.png" id="4_vt2xp"]
+[ext_resource type="Texture2D" uid="uid://2pyj5uscbq1u" path="res://art/sponza/textures/Lion_Head/Lion_Head_Normal.png" id="5_gnurx"]
+[ext_resource type="Texture2D" uid="uid://dupjwvigihbm4" path="res://art/sponza/textures/Lion_Head/Lion_Head_Smoothness.png" id="6_3hl32"]
 
 [resource]
 resource_name = "Lion_Head"
 cull_mode = 2
+albedo_texture = ExtResource("1_jefek")
 metallic = 1.0
-roughness = 0.858579
+metallic_texture = ExtResource("4_vt2xp")
+roughness_texture = ExtResource("6_3hl32")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("5_gnurx")
+ao_enabled = true
+ao_texture = ExtResource("2_yrxjs")
+heightmap_enabled = true
+heightmap_scale = 2.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("3_n23jg")
