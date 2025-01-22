@@ -16,6 +16,10 @@ glow_enabled = true
 glow_blend_mode = 1
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_8dt0p"]
+auto_exposure_enabled = true
+auto_exposure_scale = 0.17
+auto_exposure_speed = 8.0
+auto_exposure_min_sensitivity = 50.0
 
 [node name="Sponza" type="Node3D"]
 
