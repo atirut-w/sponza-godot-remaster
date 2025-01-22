@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxefcik0xn0hm"]
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_l8v4w"]
+
+[sub_resource type="Sky" id="Sky_jydd8"]
+sky_material = SubResource("PhysicalSkyMaterial_l8v4w")
+
+[sub_resource type="Environment" id="Environment_6h7dr"]
+background_mode = 2
+sky = SubResource("Sky_jydd8")
+tonemap_mode = 2
+glow_enabled = true
+glow_blend_mode = 1
+
+[node name="Sponza" type="Node3D"]
+
+[node name="SunRig" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 180, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SunRig"]
+transform = Transform3D(0.793353, -0.556131, 0.247606, 0, 0.406737, 0.913545, -0.608761, -0.724764, 0.322686, 0, 0, 0)
+light_angular_distance = 0.5
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_6h7dr")
+
+[node name="LightmapGI" type="LightmapGI" parent="."]
