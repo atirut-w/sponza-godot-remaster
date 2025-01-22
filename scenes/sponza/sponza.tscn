@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://cxefcik0xn0hm"]
+[gd_scene load_steps=7 format=3 uid="uid://cxefcik0xn0hm"]
 
 [ext_resource type="LightmapGIData" uid="uid://cpchcsl58ys1m" path="res://scenes/sponza/sponza.lmbake" id="1_6h7dr"]
 [ext_resource type="PackedScene" uid="uid://du0gakjffnka0" path="res://art/sponza/meshes/sponza_modular.glb" id="1_jydd8"]
@@ -15,6 +15,8 @@ tonemap_mode = 2
 glow_enabled = true
 glow_blend_mode = 1
 
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_8dt0p"]
+
 [node name="Sponza" type="Node3D"]
 
 [node name="SunRig" type="Node3D" parent="."]
@@ -22,14 +24,18 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="SunRig"]
 transform = Transform3D(0.793353, -0.556131, 0.247606, 0, 0.406737, 0.913545, -0.608761, -0.724764, 0.322686, 0, 0, 0)
+light_intensity_lux = 105000.0
+light_temperature = 5500.0
 light_energy = 3.0
 light_angular_distance = 0.5
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_6h7dr")
+camera_attributes = SubResource("CameraAttributesPractical_8dt0p")
 
 [node name="LightmapGI" type="LightmapGI" parent="."]
+camera_attributes = SubResource("CameraAttributesPractical_8dt0p")
 generate_probes_subdiv = 3
 light_data = ExtResource("1_6h7dr")
 
