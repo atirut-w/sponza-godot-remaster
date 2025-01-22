@@ -18,7 +18,7 @@ glow_blend_mode = 1
 [node name="Sponza" type="Node3D"]
 
 [node name="SunRig" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 180, 0)
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="SunRig"]
 transform = Transform3D(0.793353, -0.556131, 0.247606, 0, 0.406737, 0.913545, -0.608761, -0.724764, 0.322686, 0, 0, 0)
