@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c7g1ly6qe855w"]
+
+[resource]
+resource_name = "Fabric_Round_Blue"
+cull_mode = 2
+metallic = 1.0
+roughness = 0.858579

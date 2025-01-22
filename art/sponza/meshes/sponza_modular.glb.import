@@ -32,6 +32,105 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"Arches": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Arches.tres"
+},
+"Bricks": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Bricks.tres"
+},
+"Ceiling": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Ceiling.tres"
+},
+"Column_A": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Column_A.tres"
+},
+"Column_B": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Column_B.tres"
+},
+"Column_C": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Column_C.tres"
+},
+"Curtain_Blue": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Curtain_Blue.tres"
+},
+"Curtain_Green": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Curtain_Green.tres"
+},
+"Curtain_Red": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Curtain_Red.tres"
+},
+"Details": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Details.tres"
+},
+"Fabric_Round_Blue": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Fabric_Round_Blue.tres"
+},
+"Fabric_Round_Green": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Fabric_Round_Green.tres"
+},
+"Fabric_Round_Red": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Fabric_Round_Red.tres"
+},
+"Flagpoles": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Flagpoles.tres"
+},
+"Floor": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Floor.tres"
+},
+"Ivy": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Ivy.tres"
+},
+"Lion_Head": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Lion_Head.tres"
+},
+"Lion_Shield": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Lion_Shield.tres"
+},
+"Roof": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Roof.tres"
+},
+"Vase_Hanging": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Vase_Hanging.tres"
+},
+"Vase_Hanging_Chain": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Vase_Hanging_Chain.tres"
+},
+"Vase_Octagonal": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Vase_Octagonal.tres"
+},
+"Vase_Round": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Vase_Round.tres"
+},
+"Vase_Round_Plants": {
+"use_external/enabled": true,
+"use_external/path": "res://art/sponza/materials/Vase_Round_Plants.tres"
+}
+}
+}
 gltf/naming_version=1
 gltf/embedded_image_handling=1

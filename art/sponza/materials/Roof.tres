@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c0pd6qg2x4dx1"]
+
+[resource]
+resource_name = "Roof"
+cull_mode = 2
+metallic = 1.0
+roughness = 0.858579

@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bmss6wdtclmdp"]
+
+[resource]
+resource_name = "Vase_Round_Plants"
+transparency = 4
+cull_mode = 2
+metallic = 1.0
+roughness = 0.858579

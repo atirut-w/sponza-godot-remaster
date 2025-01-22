@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://is6thyb6jbum"]
+
+[resource]
+resource_name = "Curtain_Green"
+cull_mode = 2
+metallic = 1.0
+roughness = 0.858579
