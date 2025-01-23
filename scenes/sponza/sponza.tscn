@@ -1,16 +1,19 @@
-[gd_scene load_steps=7 format=3 uid="uid://cxefcik0xn0hm"]
+[gd_scene load_steps=8 format=3 uid="uid://cxefcik0xn0hm"]
 
 [ext_resource type="LightmapGIData" uid="uid://cpchcsl58ys1m" path="res://scenes/sponza/sponza.lmbake" id="1_6h7dr"]
+[ext_resource type="Texture2D" uid="uid://kkp8je3nnliv" path="res://art/generic/skies/05-18_Day_D.hdr" id="1_8dt0p"]
 [ext_resource type="PackedScene" uid="uid://du0gakjffnka0" path="res://art/sponza/meshes/sponza_modular.glb" id="1_jydd8"]
 
-[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_l8v4w"]
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_hubyc"]
+panorama = ExtResource("1_8dt0p")
 
 [sub_resource type="Sky" id="Sky_jydd8"]
-sky_material = SubResource("PhysicalSkyMaterial_l8v4w")
+sky_material = SubResource("PanoramaSkyMaterial_hubyc")
 
 [sub_resource type="Environment" id="Environment_6h7dr"]
 background_mode = 2
 sky = SubResource("Sky_jydd8")
+sky_rotation = Vector3(0, 3.83972, 0)
 tonemap_mode = 2
 glow_enabled = true
 glow_blend_mode = 1
